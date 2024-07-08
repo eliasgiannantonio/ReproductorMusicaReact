@@ -1,0 +1,44 @@
+import { v4 as uuidv4 } from "uuid";
+
+function lofi() {
+    return [
+        {
+            name: "Company",
+            cover: "https://cms.chillhop.com/media/65763/squarel8f757904ef61a59fa3d564074e4834c1fb0af2e7.jpg",
+            artist: "Leavy",
+            audio:  "https://stream.chillhop.com/mp3/69950",
+            color: ["#A79E6E", "#CDA87B"],
+            id: uuidv4(),
+            active: true,
+        },
+        {
+            name: "Fade",
+            cover: "https://cms.chillhop.com/media/698/squarel04d5dd66c33d8fc9137fd7b47f3b3c3a8e571761.jpg",
+            artist: "Knowmadic",
+            audio:  "https://stream.chillhop.com/mp3/8905",
+            color: ["#1b3653", "#c45050"],
+            id: uuidv4(),
+            active: false,
+        },
+        {
+            name: "Kauai",
+            cover: "https://cms.chillhop.com/media/75411/squarelc0ed595aa9c8193aa208a3ee990bd332e89cda8a.jpg",
+            artist: "Loyae",
+            audio:  "https://stream.chillhop.com/mp3/74258",
+            color: ["#A79E6E", "#CDA87B"],
+            id: uuidv4(),
+            active: false,
+        },
+        {
+            name: "First Snow",
+            cover: "https://cms.chillhop.com/media/73726/squarel348f36853441467ba4a8b54a74b3c9c571b953d6.jpg",
+            artist: "Enluv",
+            audio:  "https://stream.chillhop.com/mp3/73636",
+            color: ["#A79E6E", "#CDA87B"],
+            id: uuidv4(),
+            active: false,
+        },
+    ]
+}
+
+export default lofi;
