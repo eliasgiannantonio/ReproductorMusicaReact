@@ -38,6 +38,24 @@ function lofi() {
             id: uuidv4(),
             active: false,
         },
+        {
+            name: "Berry Drive",
+            cover: "https://cms.chillhop.com/media/37263/squarela4933e058391f06b10b6eceb01c437446a3d6c06.jpg",
+            artist: "J.Folk",
+            audio:  "https://stream.chillhop.com/mp3/41938",
+            color: ["#A79E6E", "#CDA87B"],
+            id: uuidv4(),
+            active: false,
+        },
+        {
+            name: "Empty place ",
+            cover: "https://cms.chillhop.com/media/35941/squarel5158b15bf8cb3b9d50588cfc31d36d28c816dc0c.jpg",
+            artist: "Psalm Trees",
+            audio:  "https://stream.chillhop.com/mp3/35664",
+            color: ["#A79E6E", "#CDA87B"],
+            id: uuidv4(),
+            active: false,
+        },
     ]
 }
 
